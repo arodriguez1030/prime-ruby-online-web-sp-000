@@ -1,7 +1,7 @@
 # Add  code here!
-def prime?(i)
+def prime?(number)
   if number> 1
     range =(start..number-1).to_a
-    range.none?
+    range.none? do |num|
   end
 end
